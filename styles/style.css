@@ -119,6 +119,7 @@ main {
 .pillar-card-description {
     color: #0E0E0E80;
 }
+
 .vision-section {
     margin: 0px 100px;
     padding: 20px 0px;
@@ -216,6 +217,7 @@ main {
     background-color: white;
     color: #FFC239;
 }
+
 .statement-section {
     padding: 20px 100px;
 
@@ -235,3 +237,276 @@ main {
     color: #0E0E0E90;
 }
 
+.opinion-section {
+    padding: 20px 100px;
+}
+
+.opinion-container {
+    background-color: white;
+    padding: 30px 30px;
+    border-radius: 10px;
+    border-collapse: collapse;
+
+}
+
+.opinion-main-title {
+    font-size: 36px;
+    font-weight: 700;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+td {
+    padding: 20px 16px;
+    border: 2px solid #C6E4D670;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    padding: 20px 16px;
+    background-color: #C6E4D6;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.answer {
+    text-align: center;
+    padding: 8px 10px;
+    border-radius: 4px;
+    background-color: #C6E4D6;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.answers {
+    text-align: center;
+}
+
+.news-section {
+    padding: 20px 100px;
+}
+
+.news-section-title {
+    font-size: 36px;
+    padding-top: 10px;
+    padding-bottom: 16px;
+}
+
+.news-main-description {
+    padding: 12px 0px 30px;
+    color: #0E0E0E80;
+}
+
+.news-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 14px;
+    display: flex;
+    gap: 30px;
+}
+
+.news-main-title {
+    font-size: 26px;
+    font-weight: 700;
+    padding-bottom: 6px;
+}
+
+.satelite {
+    border-radius: 14px;
+    height: 250px;
+}
+
+.date-time {
+    display: flex;
+    padding: 10px 0px;
+    column-gap: 16px;
+    color: #808090;
+}
+
+.news-description {
+    padding-bottom: 22px;
+    color: #808090;
+}
+
+.read-btn {
+    background-color: #006A50;
+    color: white;
+    padding: 10px 14px;
+    border-radius: 6px;
+    font-weight: 700;
+    border: 2px solid #006A50;
+}
+
+.read-btn:hover {
+    background-color: white;
+    color: #006A50;
+    border: 2px solid #006A50;
+}
+
+.donate-section {
+    padding: 20px 100px;
+    text-align: center;
+}
+
+.donate-main-title {
+    font-size: 2.25rem;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.donate-main-description {
+    text-align: center;
+    padding: 10px 40px 30px;
+    color: #808090;
+}
+
+.input-field {
+    padding: 30px 0px 30px;
+    text-align: center;
+
+}
+
+.all-taka {
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.taka {
+    padding: 50px 90px;
+    background-color: white;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.taka:hover {
+    background-color: skyblue;
+}
+
+.input-taka {
+    border-radius: 6px;
+    padding: 16px 500px;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+input::placeholder {
+    color: #80808050;
+}
+
+#selected-taka {
+    background-color: #C6E4D6;
+}
+
+#selected-taka:hover {
+    background-color: skyblue;
+}
+
+.done-btn {
+    background-color: #006A50;
+    color: white;
+    padding: 12px 22px;
+    border-radius: 6px;
+    font-weight: 700;
+}
+
+.done-btn:hover {
+    background-color: white;
+    color: #006A50;
+}
+
+.subscribe-section {
+    background-color: #C6E4D6;
+    margin: 20px 100px;
+    margin-bottom: 70px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.subscribe-container {
+    padding: 40px 30px;
+}
+
+.subscribe-main-title {
+    font-size: 2.25rem;
+    padding-top: 10px;
+    padding-bottom: 16px;
+}
+
+.subscribe-description {
+    padding-bottom: 30px;
+    color: #808080;
+}
+
+.subscribe-input {
+    display: flex;
+    justify-content: center;
+    gap: 0;
+}
+
+.subscribe-email,
+.subscribe-btn {
+    margin: 0;
+}
+
+#subscribe-input-field {
+    padding: 12px 150px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    font-size: 16px;
+    border: none;
+    font-weight: 500;
+}
+
+.subscribe-btn {
+    background-color: #006A50;
+    color: white;
+    padding: 12px 22px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    font-weight: 700;
+    border: none;
+}
+
+.subscribe-btn:hover {
+    background-color: #0000ff;
+}
+
+.subscribe-bottom-description {
+    padding: 30px 0px;
+    color: #808080;
+}
+
+footer {
+    text-align: center;
+    background-color: white;
+    padding: 10px 0px 10px;
+}
+
+#footer-main-title {
+    padding: 16px 0px;
+}
+
+.footer-link {
+    border-top: 2px solid #0E0E0E10;
+    margin: 10px 180px;
+    padding: 16px;
+
+}
+
+#insragram {
+    padding: 0px 20px;
+}
