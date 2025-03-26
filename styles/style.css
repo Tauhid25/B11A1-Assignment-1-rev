@@ -216,3 +216,22 @@ main {
     background-color: white;
     color: #FFC239;
 }
+.statement-section {
+    padding: 20px 100px;
+
+}
+
+.statement-container {
+    background-color: white;
+    padding: 50px 20px;
+    border-radius: 10px;
+    background-image: url("../assets/quote-bg.png");
+    background-repeat: no-repeat;
+    background-position: 21px 22px;
+    border: 1px solid #0E0E0E20;
+}
+
+.statement-content {
+    color: #0E0E0E90;
+}
+
