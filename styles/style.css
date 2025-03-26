@@ -82,3 +82,40 @@ nav {
     color: #006A50;
 }
 
+main {
+    background-color: #F5F5F5;
+    ;
+}
+
+.pillar-section {
+    margin: 0px 100px;
+    padding: 60px 0px;
+}
+
+.pillar-main-title {
+    font-size: 36px;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.pillar-container {
+    display: flex;
+    column-gap: 20px;
+}
+
+.pillar-card-title {
+    font-weight: 700;
+    padding: 12px 0px;
+}
+
+.pillar-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 275px;
+}
+
+.pillar-card-description {
+    color: #0E0E0E80;
+}
